@@ -16,6 +16,7 @@ struct QuotesScreen: View {
                 switch vm.currentState {
                 case .isLoading:
                     LoadingView(title: "Fetching Quotes")
+                        .offset(y: -50)
                     
                 case .didFinishLoading(let quotes):
                     List {
