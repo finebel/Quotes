@@ -1,6 +1,6 @@
 # Quotes
  
-This project uses this [API](https://animechan.vercel.app/guide#default-quotes) to fetch some random quotes and display them in a list. Potential errors are handled, too.
+This project uses this [API](https://animechan.vercel.app/guide#default-quotes) to fetch some random quotes and display them in a list. Potential errors are also handled.
 
 ![Device_Mockups](https://user-images.githubusercontent.com/46824694/131908858-c86e4c92-184a-472e-91c7-ff889853156e.png)
 
