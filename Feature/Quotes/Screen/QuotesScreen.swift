@@ -26,6 +26,7 @@ struct QuotesScreen: View {
                     
                 case .error(let errorType):
                     ErrorView(title: errorType.error.localizedDescription)
+                        .offset(y: -50)
                 }
             }
             .navigationTitle("Quotes")
